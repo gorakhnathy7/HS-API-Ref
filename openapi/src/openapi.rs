@@ -65,12 +65,12 @@ Never share your secret api keys. Keep them guarded and secure.
         (name = "Blocklist", description = "Manage Blocklist operations"),
         (name = "Routing", description = "Create and manage routing configurations"),
         (name = "Relay", description = "Manage Relay operations"),
-        (name = "payment link", description = "Create payment link"),
+        (name = "Schemas", description = "API Data Schemas"),
 
         // Admin API based Group
         (name = "Organization", description = "Manage Organization accounts"),
         (name = "Merchant Account", description = "Create and manage merchant accounts"),
-        (name = "Profile", description = "Create and manage profiles"),
+        (name = "Business Profile", description = "Create and manage business profiles"),
         (name = "API Key", description = "Create and manage API Keys"),
         (name = "Merchant Connector Account", description = "Create and manage merchant connector accounts"),
         (name = "GSM", description = "Manage Global Status Mapping rules")
@@ -91,7 +91,7 @@ Never share your secret api keys. Keep them guarded and secure.
                 "Blocklist",
                 "Routing",
                 "Relay",
-                "payment link"
+                "Schemas"
             ]
         ),
         (
@@ -99,10 +99,11 @@ Never share your secret api keys. Keep them guarded and secure.
             tags = [
                 "Organization",
                 "Merchant Account",
-                "Profile",
+                "Business Profile",
                 "API Key",
                 "Merchant Connector Account",
-                "GSM"
+                "GSM",
+                "Event"
             ]
         )
     ),
